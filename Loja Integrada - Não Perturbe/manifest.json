@@ -1,0 +1,10 @@
+{
+    "name":"Loja Integrada - Não Perturbe",
+    "version":"1.0",
+    "description":"Remove o chat de suporte do painel da Loja Integrada",
+    "browser_action":{
+        "default_popup":"index.html"
+    },
+
+    "manifest_version": 2
+}
