@@ -5,6 +5,12 @@
     "browser_action":{
         "default_popup":"index.html"
     },
-
+    "content_scripts": [
+        {
+            "matches": ["https://app.lojaintegrada.com.br/painel*"], 
+            "css": ["CSS/style.css"],
+            "js": ["JavaScript/script.js"]
+        }
+    ],
     "manifest_version": 2
 }
