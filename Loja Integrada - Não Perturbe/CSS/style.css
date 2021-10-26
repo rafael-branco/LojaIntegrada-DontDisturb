@@ -1,3 +1,7 @@
 body>div#intercom-container{
     display: none !important;
 }
+
+#hubspot-messages-iframe-container{
+    display: none !important;
+}
